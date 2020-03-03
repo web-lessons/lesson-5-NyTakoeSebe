@@ -1,0 +1,67 @@
+/*Обнуление*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.important {
+    color: red;
+}
+
+label {
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+}
+
+/*Базовый макет*/
+.head {
+    color: red;
+    height: 100px;
+}
+
+.menu {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head img {
+    height: 30px;
+    width: 30px;
+}
+
+.sidebar {
+    margin-left: 10px;
+    width: 20%;
+    float: left;
+}
+
+.content {
+    width: 78%;
+    float: right;
+    padding: 5px;
+}
+
+.footer {
+    border-top: 1px solid blue;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Container*/
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+
